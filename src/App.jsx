@@ -8,7 +8,7 @@ function App() {
   const [itemList, setItemList] = useState([]);
 
   return (
-    <div className="container">
+    <div className="app">
       <Header />
       <Form setItemList={setItemList} itemList={itemList} />
       <List setItemList={setItemList} itemList={itemList} />

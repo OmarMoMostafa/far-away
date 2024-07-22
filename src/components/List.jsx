@@ -36,7 +36,7 @@ function List({ itemList, setItemList }) {
   }
 
   return (
-    <div className="item-list">
+    <div className="list">
       <ul>
         {sortedItems.map((item) => (
           <Item
